@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+ * {
+     padding:0;
+     box-sizing:border-box;
+     font-family:'Jost',sans-serif;
+     text-align:center;
+}
+ #seccion{
+     display: flex;
+     justify-content: center;
+     height:100vh ;
+     align-items: center;
+}
+
+#botonapi{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 15px;
+  margin-bottom: 545px;
+
+  border-style: dotted;
+}
+ .grass{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #5EFF51 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+ #info.grass :hover{
+     text-shadow: #5EFF51 7px 7px 7px;
+     color:#5EFF51 
+}
+ .water{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #51EDFF 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.water:hover{
+     text-shadow: #51EDFF 7px 7px 7px;
+     color:#51EDFF 
+}
+ .normal{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FCE3AD 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+ #info.normal :hover{
+     text-shadow: #FCE3AD 7px 7px 7px;
+     color:#FCE3AD 
+}
+ .rock{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #766D58 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.rock :hover{
+     text-shadow: #766D58 7px 7px 7px;
+     color:#766D58 
+}
+ .electric{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FFE551 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.electric :hover{
+     text-shadow: #FFE551 7px 7px 7px;
+     color:#FFE551 
+}
+ .fairy{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FF51D5 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.fairy :hover{
+     text-shadow: #FF51D5 7px 7px 7px;
+     color:#FF51D5 
+}
+ .fighting{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #783A04 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.fighting :hover{
+     text-shadow: #783A04 7px 7px 7px;
+     color:#783A04 
+}
+ .ground {
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FFCFA4 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.ground :hover{
+     text-shadow: #FFCFA4 7px 7px 7px;
+     color:#FFCFA4 
+}
+ .ice{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #546BFF 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.ice :hover{
+     text-shadow: #546BFF 7px 7px 7px;
+     color:#546BFF 
+}
+ .fire{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FF6C51 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+ #info.fire :hover{
+     text-shadow: #FF6C51 7px 7px 7px;
+     color:#FF6C51 
+}
+ .ghost{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #9054FF 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.ghost :hover{
+     text-shadow: #9054FF 7px 7px 7px;
+     color:#9054FF 
+}
+ .poison{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #9F92B9 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.poison :hover{
+     text-shadow: #9F92B9 7px 7px 7px;
+     color:#9F92B9 
+}
+ .bug{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #C9FF6B 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.bug :hover{
+     text-shadow: #C9FF6B 7px 7px 7px;
+     color:#C9FF6B 
+}
+ .dragon{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FF8A57 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+ #info.dragon:hover{
+     text-shadow: #FF8A57 7px 7px 7px;
+     color:#FF8A57 
+}
+ .flying{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #575FFF 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.flying :hover{
+     text-shadow: #575FFF 7px 7px 7px;
+     color:#575FFF 
+}
+ .psychic{
+     width:300px ;
+     height: 600px;
+     font-size: 20px;
+     border-radius: 20px;
+     box-shadow: #FF57A3 5px 5px 20px;
+     display: grid;
+     justify-content: center;
+}
+#info.psychic:hover{
+     text-shadow: #FF57A3 7px 7px 7px;
+     color:#FF57A3 
+}
+ #imgp{
+     height: 600px;
+     width: 600px;
+     image-rendering: pixelated;
+     margin: auto;
+     margin-top: -80px;
+}
+ #info{
+     position: fixed;
+     margin-top: 420px;
+     width: 300px;
+     height: 58px;
+     border-radius: 20px;
+}
+ #footer{
+     opacity:0.5;
+     width:100%;
+     left:0px;
+     bottom:0px;
+}
+ @media(max-width:1030px){
+     .seccion{
+         flex-direction: column;
+         height: auto;
+         align-items: center;
+         justify-content: center;
+    }
+     .imgp{
+         height: 300px;
+         width: 300px;
+         image-rendering: pixelated;
+         margin: auto;
+    }
+}
